@@ -11,22 +11,25 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <script
+      src="https://kit.fontawesome.com/030f2c7e34.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center ">
       <h1 class="mt-5">Random card generator</h1>
-      <div class="container-fluid text-center col-4 p-5" id="card">
+      <div class="container-fluid text-center col-4 p-5 mt-3" id="card">
+        <i class="fa-sharp fa-solid fa-diamond float-start" id="topIcon"></i>
         <p id="number">A</p>
+        <i class="fa-sharp fa-solid fa-diamond float-end" id="bottomIcon"></i>
       </div>
 
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+      <button
+        class="alert alert-warning mt-4 col-4 container-fluid text-center"
+      >
+        Press
+      </button>
     </div>
   </body>
 </html>
