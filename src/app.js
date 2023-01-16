@@ -16,6 +16,7 @@ let kinds = ["Hearts", "Clovers", "Diamonds", "Spades"];
 let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let randomKind = kinds[Math.floor(Math.random() * kinds.length)];
 
-let finalCard = document.querySelector("#number");
+let finalNumber = document.querySelector("#number");
+let finalKind = document.querySelector(".icon");
 
-finalCard.innerHTML = randomNumber;
+finalNumber.innerHTML = randomNumber;

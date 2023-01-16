@@ -13,10 +13,6 @@ body {
   font-size: 100px;
 }
 
-#bottomIcon {
-  margin-top: 40%;
-}
-
 #topIcon {
   font-size: 45px;
   color: red;
@@ -25,4 +21,5 @@ body {
 #bottomIcon {
   font-size: 45px;
   color: red;
+  margin-top: 30%;
 }
