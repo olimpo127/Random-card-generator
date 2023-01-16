@@ -9,3 +9,13 @@ window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
 };
+
+let numbers = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
+let kinds = ["Hearts", "Clovers", "Diamonds", "Spades"];
+
+let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
+let randomKind = kinds[Math.floor(Math.random() * kinds.length)];
+
+let finalCard = document.querySelector("#number");
+
+finalCard.innerHTML = randomNumber;
