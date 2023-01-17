@@ -22,7 +22,7 @@ let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let randomKind = kinds[Math.floor(Math.random() * kinds.length)];
 
 let finalNumber = document.querySelector("#number");
-let finalKind = document.querySelector(".icon");
+let finalKind = document.querySelector("#icon");
 
 finalNumber.innerHTML = randomNumber;
 //finalKind.innerHTML = randomKind;
