@@ -9,17 +9,15 @@ body {
 }
 
 #number {
-  margin-top: 30%;
   font-size: 100px;
 }
 
 #topIcon {
-  font-size: 45px;
+  font-size: 100px;
   color: red;
 }
 
 #bottomIcon {
-  font-size: 45px;
+  font-size: 100px;
   color: red;
-  margin-top: 30%;
 }

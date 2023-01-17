@@ -12,17 +12,19 @@ window.onload = function() {
 
 let numbers = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
 
-let diamondIcon = "fa-sharp fa-solid fa-diamond";
-let heartIcon = "fa-sharp fa-solid fa-heart";
-let spadeIcon = "fa-sharp fa-solid fa-spade";
-let cloverIcon = "fa-sharp fa-solid fa-clover";
+let diamondIcon = "♦";
+let heartIcon = "♥";
+let spadeIcon = "♠";
+let cloverIcon = "♣";
 let kinds = [diamondIcon, heartIcon, spadeIcon, cloverIcon];
 
 let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let randomKind = kinds[Math.floor(Math.random() * kinds.length)];
 
 let finalNumber = document.querySelector("#number");
-//let finalKind = document.getElementsByClassName(".icon").className;
+let finalKind = document.querySelector("#topIcon");
+let finalKind2 = document.querySelector("#bottomIcon");
 
 finalNumber.innerHTML = randomNumber;
-//finalKind.className = randomKind;
+finalKind.innerHTML = randomKind;
+finalKind2.innerHTML = randomKind;
