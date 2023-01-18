@@ -11,12 +11,7 @@ window.onload = function() {
 };
 
 let numbers = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
-
-let diamondIcon = "♦";
-let heartIcon = "♥";
-let spadeIcon = "♠";
-let cloverIcon = "♣";
-let kinds = [diamondIcon, heartIcon, spadeIcon, cloverIcon];
+let kinds = ["♦", "♥", "♠", "♣"];
 
 let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let randomKind = kinds[Math.floor(Math.random() * kinds.length)];
