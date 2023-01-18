@@ -25,9 +25,9 @@ let finalNumber = document.querySelector("#number");
 let finalKind = document.querySelector("#topIcon");
 let finalKind2 = document.querySelector("#bottomIcon");
 
-if (randomKind == 2 || randomKind == 3) {
-  document.randomKind.style.color = "black";
-  document.randomKind.style.color = "black";
+if (randomKind == kinds[2] || randomKind == kinds[3]) {
+  document.querySelector("#topIcon").style.color = "black";
+  document.querySelector("#bottomIcon").style.color = "black";
 }
 
 finalNumber.innerHTML = randomNumber;
